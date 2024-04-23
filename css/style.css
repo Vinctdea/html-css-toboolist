@@ -18,6 +18,37 @@ header{
 
 header> span{
     margin-left: 5px; 
-   font-size: 50px;
-   vertical-align: middle;
+    font-size: 50px;
+    vertical-align: middle;
+}
+
+main{
+    background-color: rgba(124, 121, 121, 0.2);
+}
+
+.layout{
+    margin: 1% 15%;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+}
+
+button{
+    padding: 1%;
+    border-radius: 15px;
+    background-color: white;
+    color: grey;
+}
+
+#bottonemod{
+    background-color: rgb(59, 155, 245);
+    color: white;
+}
+
+.spacing {
+    margin-left: 10%;
+}
+
+::before{
+    content: \2304S;
 }
