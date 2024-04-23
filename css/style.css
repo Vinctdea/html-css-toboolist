@@ -10,11 +10,12 @@ header{
     margin-left: 2%;
     margin-top: 5%;
     vertical-align: middle;
-
+   
    }
 
    header> img{
     vertical-align: middle;
+    line-height: 100px;
    }
 
 header> span{
@@ -25,6 +26,9 @@ header> span{
 
 main{
     background-color: rgba(124, 121, 121, 0.2);
+    width: 100%;
+    display: inline-block;
+
 }
 
 .layout{
@@ -85,3 +89,16 @@ button{
 .orange{
     background-color: orange;
 }
+
+h2::before{
+    content:"\25BC" ;
+}
+
+.check::before{
+    content: "\2705";
+}
+
+.uncheck::before{
+    content: "\274C";
+}
+
