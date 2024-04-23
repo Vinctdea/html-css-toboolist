@@ -1,4 +1,4 @@
-*{
+body{
     margin: 0;
     box-sizing: border-box;
     padding: 0;
@@ -8,8 +8,9 @@
 
 header{
     margin-left: 2%;
-    margin-top: 2%;
+    margin-top: 5%;
     vertical-align: middle;
+
    }
 
    header> img{
@@ -27,7 +28,7 @@ main{
 }
 
 .layout{
-    margin: 1% 15%;
+    margin: 5px 15% ;
     border-radius: 10px;
     background-color: white;
     padding: 20px;
@@ -49,6 +50,38 @@ button{
     margin-left: 10%;
 }
 
-::before{
-    content: \2304S;
+.item{
+    font-size: 20px;
+}
+
+.label{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    margin-left: 5px;
+    color: white;
+}
+
+.blu{
+    background-color: cornflowerblue;
+}
+
+.verde{
+    background-color: rgb(108, 233, 36);
+}
+
+.rose{
+    background-color: deeppink;
+}
+
+.violet{
+    background-color: blueviolet;
+}
+
+.green{
+    background-color: rgb(43, 75, 12);
+}
+
+.orange{
+    background-color: orange;
 }
